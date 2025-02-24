@@ -15,7 +15,7 @@ def query_answer(question):
 
 def main():
     # 设置页面标题
-    st.title("Selina的智能助手")
+    st.title("Miya")
     
     # 初始化后续问题列表
     if 'follow_up_questions' not in st.session_state:
